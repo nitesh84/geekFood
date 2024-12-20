@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,ul{
+    list-style-type: none;
+}
+
+:root{
+    --primary-bg-color:#111827;
+    --primary-text-color:#ffffff;
+    --primary-btn-color:#2563eb;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+    font-size: 1em;
+}
+.btn{
+    border-radius: 8px;
+    height:3em ;
+    width: 9em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
