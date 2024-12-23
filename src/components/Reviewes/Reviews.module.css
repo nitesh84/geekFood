@@ -1,0 +1,37 @@
+.reviewContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid red; */
+}
+
+.reviewCard{
+    width: 400px;
+    padding: 1em;
+    border: 1px solid red;
+}
+
+.reviewCard > p{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.reviewCard img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.reviewContainer .imgHolder{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: start;
+}
+

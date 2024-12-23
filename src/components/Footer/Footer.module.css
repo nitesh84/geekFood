@@ -1,0 +1,37 @@
+.footer {
+    text-align: center;
+    background-color: #f8f9fa; 
+    padding: 20px;
+    height: 20vh;
+  }
+
+  .footer h1{
+    margin-bottom: 0.5em;
+    color: #0d9488;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  .footerText {
+    color: #333; 
+    font-size: 16px;
+    margin-bottom: 2em;
+  }
+  
+  .footerLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footerLinks a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footerLinks a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
